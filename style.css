@@ -1,0 +1,56 @@
+/* CSS files add styling rules to your content */
+
+body {
+  color: black;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.header {
+  background-color: #6666A9;
+  color: white;
+  display: flex;
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  margin: 0;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.intro {
+  padding: 4rem;
+  background-color: #0FA3B1;
+  /* background-image: url(http://placekitten.com/g/1300/800); */
+  /* backdrop-filter: blur(10px); */
+}
+
+.intro__list {
+  padding: 0;
+  list-style-type: none;
+  color: white;
+}
+
+.intro__listitem {
+  font-family: monospace;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.intro__number {
+  font-size: 3rem;
+  /* margin-right: .2ch; */
+}
+
+.intro__disclaimer {
+font-size: .8em;
+  letter-spacing: .35px;
+  max-width: 35ch;
+}
+
+
